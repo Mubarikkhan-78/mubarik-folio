@@ -68,7 +68,7 @@
 .photo-frame { height: 452px; width: 100%; position: relative; border-radius: 8px; overflow: hidden; box-shadow: var(--photo-shadow); }
 .photo-frame img { width: 100%; height: 100%; object-fit: cover; object-position: 57% 43%; transition: transform 700ms; }
 .photo-frame:hover img { transform: scale(1.025); }
-.photo-caption { position: absolute; bottom: 16px; left: 18px; right: 18px; display: flex; align-items: center; justify-content: center; gap: 9px; background: var(--photo-overlay); color: var(--photo-text); font-size: 11px; padding: 13px 10px; border-radius: 4px; backdrop-filter: blur(10px); }
+.photo-caption { position: absolute; bottom: 76px; left: 18px; right: 18px; display: flex; align-items: center; justify-content: center; gap: 9px; background: var(--photo-overlay); color: var(--photo-text); font-size: 11px; padding: 13px 10px; border-radius: 4px; backdrop-filter: blur(10px); }
 .photo-line { position: absolute; border: 1px solid var(--primary); opacity: .24; border-radius: 8px; top: 0; right: -19px; width: 78%; height: 93%; }
 .photo-side-label { position: absolute; top: 109px; right: -43px; font-size: 8px; color: var(--muted-foreground); letter-spacing: 2px; writing-mode: vertical-rl; }
 .student-badge { display: flex; gap: 12px; align-items: center; position: absolute; bottom: 2px; left: -32px; background: var(--background); box-shadow: var(--badge-shadow); border: 1px solid var(--border); padding: 16px 20px 16px 15px; border-radius: 6px; }
